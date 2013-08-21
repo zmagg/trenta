@@ -1,0 +1,12 @@
+{application, trenta,
+ [
+  {description, "Toy networked block store"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { trenta_app, []}},
+  {env, []}
+ ]}.
